@@ -1,0 +1,30 @@
+let mapleader=<space> 
+
+" LSP options
+nnoremap <Leader>d :LspSymbolDefinition<CR>
+nnoremap <Leader>i :LspSymbolImplementation<CR>
+nnoremap <Leader>k :LspHover<CR>
+nnoremap <Leader>t :LspGotoDiagnostic<CR>
+vnoremap <Leader>rn :LspSymbolRename<CR>
+vnoremap <Leader>f :LspFormatDocumentRange<CR>
+nnoremap <Leader>ac :LspCodeActions<CR>
+
+" Sublime actions
+nnoremap <Leader>n :NewFile<CR>
+nnoremap <Leader>S :SaveAll<CR>
+" Ignore specific actions of sys clipboard
+nnoremap d "_d
+nnoremap D "_D
+nnoremap c "_c
+nnoremap C "_C
+nnoremap x "_x
+nnoremap X "_X
+nnoremap s "_s
+nnoremap S "_C 
+nnoremap p "+p
+nnoremap P "+P
+vnoremap p "_d
+
+" Tab filter plugin
+nnoremap <Leader><Tab> :TabFilter<CR>
+

@@ -1,0 +1,24 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"LSP",
+		"LSP-basedpyright",
+		"LSP-bash",
+		"LSP-copilot",
+		"LSP-eslint",
+		"LSP-intelephense",
+		"LSP-typescript",
+		"NeoVintageous",
+		"OLED Color Scheme",
+		"Package Control",
+		"PHP Completions Kit",
+		"PhpDoc",
+		"Seti_UI",
+		"SideBarEnhancements",
+		"Tab Filter",
+	],
+}
