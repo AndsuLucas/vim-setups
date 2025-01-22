@@ -6,7 +6,7 @@
 
 ## Setup copilot
 
-- CTRL + SHIFT + F > Copilot: signin > login at github > authorize > paste the code previously copied (its automatic)
+- CTRL + SHIFT + P > Copilot: signin > login at github > authorize > paste the code previously copied (its automatic)
 
 ## Include packages
 
