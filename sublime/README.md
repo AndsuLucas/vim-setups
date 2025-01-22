@@ -1,5 +1,13 @@
 # SETUP FOR SUBLIME TEXT 3 WITH VINTAGEOUS (VIM LIKE)
 
+## Install
+
+- sudo _./setup.sh_ or _./setup.sh /home/.config/your-sublime-config_
+
+## Setup copilot
+
+- CTRL + SHIFT + F > Copilot: signin > login at github > authorize > paste the code previously copied (its automatic)
+
 ## Include packages
 
 
