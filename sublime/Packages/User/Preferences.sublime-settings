@@ -1,7 +1,6 @@
 {
-	"ignored_packages":
-	[
-		"Vintage",
+	"ignored_packages": [
+		"Vintage"
 	],
 	"theme": "Seti_orig.sublime-theme",
 	"color_scheme": "OLED.sublime-color-scheme",
@@ -19,6 +18,6 @@
 	"dark_theme": "Default Dark.sublime-theme",
 	"light_theme": "Adaptive.sublime-theme",
 	"translate_tabs_to_spaces": true,
-    "tab_size": 4,
-    "detect_indentation": true, 
+	"tab_size": 4,
+	"detect_indentation": true
 }
