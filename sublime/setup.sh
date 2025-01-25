@@ -32,17 +32,15 @@ if [ ! -z "$1" ]; then
 fi
 
 if [ ! -d "$SUBLIME_DIR" ]; then
-   echo "Sublime config directory not found at $SUBLIME_DIR. Did you install Sublime Text?"
-   echo "If you change the directory name, pass as parameter: sudo ./setup.sh ~/.config/your-sublime-config"
-   exit 1
+  mkdir "$SUBLIME_DIR"
 fi
 
 BACKUP_DIR="."  # Backup path passed as an argument
 
 # Import the backup
 echo "Restoring Sublime Text backup..."
-cp -r "$BACKUP_DIR/Packages" "$SUBLIME_DIR/Packages/"
-cp -r "$BACKUP_DIR/Installed Packages" "$SUBLIME_DIR/"
+cp -r -f "$BACKUP_DIR/configs/Installed Packages" "$SUBLIME_DIR"
+cp -r -f "$BACKUP_DIR/configs/Packages" "$SUBLIME_DIR"
 
 # Confirm the restoration
 echo "Backup successfully restored!"
