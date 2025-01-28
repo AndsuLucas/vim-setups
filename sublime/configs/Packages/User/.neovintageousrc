@@ -23,7 +23,7 @@ nnoremap s "_s
 nnoremap S "_C 
 nnoremap p "+p
 nnoremap P "+P
-vnoremap p "_d
+vnoremap p "_dP
 
 " Tab filter plugin
 nnoremap <Leader><Tab> :TabFilter<CR>
